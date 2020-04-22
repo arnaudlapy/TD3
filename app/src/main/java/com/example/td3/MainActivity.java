@@ -21,7 +21,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String BASE_URL = "https://pokeapi.co//";
+    private static final String BASE_URL = "https://raw.githubusercontent.com/arnaudlapy/TD3/master/";
 
     private RecyclerView recyclerView;
     private ListAdapter mAdapter;
@@ -66,14 +66,14 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
-        PokeApi PokeApi = retrofit.create(PokeApi.class);
+        DiscographieApi PokeApi = retrofit.create(DiscographieApi.class);
 
-        Call<RestPokemonResponse> call = PokeApi.getPokemonResponse();
-        call.enqueue(new Callback<RestPokemonResponse>() {
+        Call<RestDiscographieResponse> call = PokeApi.getDiscographieResponse();
+        call.enqueue(new Callback<RestDiscographieResponse>() {
             @Override
-            public void onResponse(Call<RestPokemonResponse> call, Response<RestPokemonResponse> response) {
+            public void onResponse(Call<RestDiscographieResponse> call, Response<RestDiscographieResponse> response) {
                 if(response.isSuccessful() && response.body() != null){
-                    List<Pokemon> pokemonList = response.body().getResults();
+                    List<Discographie> pokemonList = response.body().getResults();
                     Toast.makeText(getApplicationContext(), "API Succes", Toast.LENGTH_SHORT).show();
                 }else {
                     showError();
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
              }
 
              @Override
-             public void onFailure(Call<RestPokemonResponse> call, Throwable t) {
+             public void onFailure(Call<RestDiscographieResponse> call, Throwable t) {
                 showError();
             }
         });
