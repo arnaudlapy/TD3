@@ -55,7 +55,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
         final Discographie currentDisc;
 
-        if(position < values.size() - 1){
+        if(position < values.size()){
 
            currentDisc = values.get(position);
            holder.txtHeader.setText(currentDisc.getName());
