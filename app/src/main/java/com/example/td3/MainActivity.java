@@ -32,25 +32,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        showlist();
         makeApiCall();
-
     }
 
-    private void showlist() {
-
+    private void showList(List<Discographie> discographieList) {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
-        /* use a linear layout manager */
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        List<String> input = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
-            input.add("Test" + i);
-        }
 
-        // define an adapter
-        mAdapter = new ListAdapter(input);
+        mAdapter = new ListAdapter(discographieList);
         recyclerView.setAdapter(mAdapter);
 
     }
@@ -66,15 +57,15 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
-        DiscographieApi PokeApi = retrofit.create(DiscographieApi.class);
+        DiscographieApi DiscoApi = retrofit.create(DiscographieApi.class);
 
-        Call<RestDiscographieResponse> call = PokeApi.getDiscographieResponse();
+        Call<RestDiscographieResponse> call = DiscoApi.getDiscographieResponse();
         call.enqueue(new Callback<RestDiscographieResponse>() {
             @Override
             public void onResponse(Call<RestDiscographieResponse> call, Response<RestDiscographieResponse> response) {
                 if(response.isSuccessful() && response.body() != null){
-                    List<Discographie> pokemonList = response.body().getResults();
-                    Toast.makeText(getApplicationContext(), "API Succes", Toast.LENGTH_SHORT).show();
+                    List<Discographie> discographieList = response.body().getResults();
+                    showList(discographieList);
                 }else {
                     showError();
                 }
