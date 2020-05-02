@@ -1,22 +1,32 @@
 package com.example.td3;
 
+import android.content.Context;
+import android.content.Intent;
+import android.media.Image;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
+import com.squareup.picasso.Picasso;
 import java.util.List;
 
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
-    private List<Discographie> values;
 
-    class ViewHolder extends RecyclerView.ViewHolder {
+    private List<Discographie> values;
+    private Context context;
+
+    static class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView txtHeader;
         TextView txtFooter;
+        ImageView imageView;
+        RelativeLayout parentLayout;
+
         View layout;
 
         ViewHolder(View v) {
@@ -24,6 +34,9 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             layout = v;
             txtHeader = (TextView) v.findViewById(R.id.firstLine);
             txtFooter = (TextView) v.findViewById(R.id.secondLine);
+            imageView = (ImageView) v.findViewById(R.id.icon);
+            parentLayout = v.findViewById(R.id.parent_layout);
+
         }
     }
 
@@ -37,10 +50,12 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         notifyItemRemoved(position);
     }
 
-    public ListAdapter(List<Discographie> myDataset) {
-        values = myDataset;
+    ListAdapter(List<Discographie> myDataset, Context context) {
+        this.values = myDataset;
+        this.context = context;
     }
 
+    @NonNull
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
@@ -50,16 +65,33 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, final int position) {
-
+    public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
 
         final Discographie currentDisc;
 
         if(position < values.size()){
 
            currentDisc = values.get(position);
-           holder.txtHeader.setText(currentDisc.getName());
-           holder.txtFooter.setText(currentDisc.getType());
+
+            holder.txtHeader.setText(currentDisc.getName());
+            holder.txtFooter.setText(currentDisc.getType());
+
+            holder.parentLayout.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    Intent intent = new Intent(context, GalleryActivity.class);
+                    intent.putExtra("Disc_image_URL", currentDisc.getImgURL());
+                    intent.putExtra("Disc_Title", currentDisc.getName());
+                    context.startActivity(intent);
+                }
+            });
+
+            Picasso.with(context)
+                .load(currentDisc.getImgURL())
+                .into(holder.imageView);
+
+
         }else Log.i("ListAdapter", "erreur size");
     }
 
@@ -67,5 +99,4 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     public int getItemCount() {
         return values.size();
     }
-
 }
