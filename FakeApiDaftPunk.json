@@ -1,5 +1,5 @@
 {
-   "count":13,
+   "count":14,
    "previous":null,
    "results":[
       {
@@ -24,25 +24,25 @@
         "genre": "Electroclash"
       },
       {
-        "name": "Tron: Legacy",
-        "imgURL": "https://cdn.shopify.com/s/files/1/0689/3887/products/TRON-Legacy-Daft-Punk-2-LP_2048x2048.jpg?v=1540420532",
-        "date": 2010,
-        "type": "Album",
-        "genre": "Soundtrack"
-      },
-      {
-        "name": "Tron: Legacy R3c0nf1gur3d",
-        "imgURL": "https://images-na.ssl-images-amazon.com/images/I/61ahLOkR82L._SL1500_.jpg",
-        "date": 2011,
-        "type": "Album",
-        "genre": "Dance & House"
-      },
-      {
         "name": "Random Access Memories",
         "imgURL": "https://userscontent2.emaze.com/images/d1dbb62d-c039-4d6a-bf49-1fac90fac226/bcc90461-22bd-4646-b4d5-f01678317f1c.jpg",
         "date": 2013,
         "type": "Album",
         "genre": "Nu-Disco"
+      },
+      {
+        "name": "Tron: Legacy",
+        "imgURL": "https://cdn.shopify.com/s/files/1/0689/3887/products/TRON-Legacy-Daft-Punk-2-LP_2048x2048.jpg?v=1540420532",
+        "date": 2010,
+        "type": "Bande Originale",
+        "genre": "Electronic"
+      },
+      {
+        "name": "Tron: Legacy R3c0nf1gur3d",
+        "imgURL": "https://images-na.ssl-images-amazon.com/images/I/61ahLOkR82L._SL1500_.jpg",
+        "date": 2011,
+        "type": "Album de Remixes",
+        "genre": "Dance & House"
       },
       {
         "name": "Alive 1997",
@@ -59,6 +59,13 @@
         "genre": "French House"
       },
       {
+        "name": "Daft Club",
+        "imgURL": "https://k32.kn3.net/taringa/8/7/9/5/5/7/3/edgarx70/902.jpg",
+        "date": 2003,
+        "type": "Album de Remixes",
+        "genre": "French House"
+      },
+      {
         "name": "Musique Vol. 1: 1993-2005",
         "imgURL": "https://images-na.ssl-images-amazon.com/images/I/61EBamxG3SL._SL1500_.jpg",
         "date": 2006,
@@ -66,17 +73,17 @@
         "genre": "French House"
       },
       {
-        "name": "Daft Club",
-        "imgURL": "https://k32.kn3.net/taringa/8/7/9/5/5/7/3/edgarx70/902.jpg",
-        "date": 2003,
-        "type": "Album de Remix",
-        "genre": "French House"
-      },
-      {
         "name": "Daft Punk Greatest Hits",
         "imgURL": "https://www.music-bazaar.com/album-images/vol12/592/592856/2432695-big/Greatest-Hits-CD1-cover.jpg",
         "date": 2006,
         "type": "Compilation",
+        "genre": "French House"
+      },
+      {
+        "name": "Around the World",
+        "imgURL": "https://i.imgur.com/zKFrK6v.jpg",
+        "date": 1997,
+        "type": "EP",
         "genre": "French House"
       },
       {
