@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TD3</string>
+    <string name="project_name">Project Name</string>
+    <string name="todo">TODO</string>
+    <string name="example_application">Example application</string>
+    <string name="description">Description</string>
+    <string name="project_date">Project Date</string>
+    <string name="project_genre">Project Genre</string>
+    <string name="project_type">Project Type</string>
+    <string name="project_dur_e">Project Durée</string>
 </resources>

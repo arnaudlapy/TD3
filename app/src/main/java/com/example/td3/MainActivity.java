@@ -1,6 +1,7 @@
 package com.example.td3;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -67,10 +68,10 @@ public class MainActivity extends AppCompatActivity {
     private void showList(List<Discographie> discographieList) {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
-        layoutManager = new LinearLayoutManager(this);
+        layoutManager = new GridLayoutManager(getApplicationContext(), 2);
         recyclerView.setLayoutManager(layoutManager);
 
-        mAdapter = new ListAdapter(discographieList);
+        mAdapter = new ListAdapter(discographieList, this);
         recyclerView.setAdapter(mAdapter);
 
     }

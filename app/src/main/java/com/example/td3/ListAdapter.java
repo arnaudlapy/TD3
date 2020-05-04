@@ -2,7 +2,6 @@ package com.example.td3;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -83,6 +82,10 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
                     Intent intent = new Intent(context, GalleryActivity.class);
                     intent.putExtra("Disc_image_URL", currentDisc.getImgURL());
                     intent.putExtra("Disc_Title", currentDisc.getName());
+                    intent.putExtra("Disc_Date", currentDisc.getDate());
+                    intent.putExtra("Disc_Type", currentDisc.getType());
+                    intent.putExtra("Disc_Duree", currentDisc.getDuree());
+                    intent.putExtra("Disc_Genre", currentDisc.getGenre());
                     context.startActivity(intent);
                 }
             });
