@@ -8,7 +8,9 @@
         "date": "1997",
         "type": "Album",
         "duree" : "73:53",
-        "genre": "French House"
+        "genre": "French House",
+        "description" : "Réalisé à la maison avec peu de moyens, Homework sort en 1997 accompagné d'une réédition du titre « Da Funk » en simple. Le succès du groupe viendra du fait qu'il incorpore à la techno des éléments extérieurs à celle-ci : disco, rock, pop, electro... ; le tout dans un esprit de synthèse presque magique. Pour éviter d'être pris au piège par le star-system, le duo n'apparaît que masqué ou à travers des photos systématiquement retouchées.",
+        "imgStyleURL" : "https://images1.newscred.com/cD04YWVlOGE3Mzk5MTM1NDRjYmNmYzhjNDkzZTkzMTVjNiZnPTFmOWRjNmUzNDY0Y2JhYWZiZWE2ZmZhOGU5ZjczM2Nj?width=639&height=363&preserve_animation=True/img"
       },
       {
         "name": "Discovery",
@@ -17,6 +19,8 @@
         "type": "Album",
         "duree" : "61:01",
         "genre": "French House"
+        "description" : "Discovery est le titre du deuxième album studio du groupe Daft Punk, sorti en 2001 et composé de 14 titres. Le film d'animation muet Interstella 5555: The 5tory of the 5ecret 5tar 5ystem supervisé par Leiji Matsumoto, le créateur d'Albator, sorti en 2003, reprend comme uniques musiques les 14 morceaux de Discovery. Le titre du 11e morceau de l'album, Veridis Quo, peut aussi être interprété comme l'homophone de Very Disco. De même, il suffit de remettre les syllabes dans le bon ordre et on obtient Disco very c’est-à-dire le titre de l'album Discovery. Leur démarche se radicalisera d'ailleurs jusqu'à la sortie de Discovery où les deux hommes accomplirons leur métamorphose finale sous forme de ...robots !",
+        "imgStyleURL" : "https://66.media.tumblr.com/291fe9bb22d32e1c92a7e9824f4fc1fc/tumblr_p5rj35igP11tkloieo2_1280.jpg"
       },
       {
         "name": "Human After All",
@@ -25,6 +29,8 @@
         "type": "Album",
         "duree" : "45:34",
         "genre": "Electroclash"
+        "description" = "Human After All, ce troisième album qui fouille un étrange entre-deux, mi-homme mi-machine, entre la sueur du rock et la précision des robots, vient aujourd'hui réaffirmer cette quête de diversité. La sortie d'un album de Daft Punk est toujours un événement en soit car leur musique et leur démarche s'affirment comme étant les enfants logiques de l'histoire. Il en est ainsi du toujours ambitieux et performant Human After All en 2007. Leur science du son, leur culture musicale énorme, leur côté rebelle, leur sens des affaires, leur approche transversale entre art sonore et visuel, se concilient toujours naturellement, avec une grande humilité. Cet album a été enregistré en 6 semaines (2 semaines de composition, 4 semaines de mixage). ",
+        "imgStyleURL" : "https://cdn.pigeonsandplanes.com/wp-content/uploads/2012/09/daft_punk.jpg"
       },
       {
         "name": "Random Access Memories",
@@ -33,6 +39,8 @@
         "type": "Album",
         "duree" : "74:24",
         "genre": "Nu-Disco"
+        "description" : "Précédé du titre phare « Get Lucky » sur lequel opèrent Nile Rodgers et Pharrell Williams, l'album Random Access Memories paru le 20 mai 2013 marque une nouvelle étape dans l'ascension du duo à l'échelle planétaire. Fidèles à leur volonté d'anonymat, les deux musiciens qui n'apparaissent plus qu'avec des casques installent l'opus à tendance disco (avec les participations de Chilly Gonzales et Julian Casablancas) à la première place des classements de ventes mondiaux dès sa sortie.",
+        "imgStyleURL" : "https://66.media.tumblr.com/979efbcb00f2b9b56ec9d97c1c81279d/tumblr_oxu3mvj2YU1tkloieo1_1280.png"
       },
       {
         "name": "Tron: Legacy",
@@ -41,6 +49,8 @@
         "type": "Bande Originale",
         "duree" : "58:37",
         "genre": "Electronic"
+        "description" : "En 2010, c'est en toute logique que le duo fortement inspiré par les musiques de films accomplit celle de Tron : L'héritage, commandée par Hollywood. Daft Punk se révèle une nouvelle fois à la hauteur de ses ambitions internationales en signant une symphonie électronique et orchestrale, devancée par le teaser de « Derezzed ». Le relatif échec commercial de la bande originale est vite oublié à l'annonce de la sortie du quatrième album.",
+        "imgStyleURL" : "https://66.media.tumblr.com/c747e3967506fefcee88791db16af505/tumblr_nn2idmrn921tkloieo1_1280.jpg"
       },
       {
         "name": "Tron: Legacy R3c0nf1gur3d",
@@ -49,6 +59,8 @@
         "type": "Album de Remixes",
         "duree" : "77:44",
         "genre": "Dance & House"
+        "description" : "Tron: Legacy Reconfigured (parfois stylisé Tron: Legacy R3C0NF1GUR3D) est une compilation de remixes de certains titres de Daft Punk issus de la bande originale de Tron : L'Héritage. Tron: Legacy Reconfigured sort en parallèle à la sortie en vidéo de Tron : L'Héritage. Il a été vendu dans un coffret incluant le film, un EP de titres bonus de la bande originale, une copie du comic book Tron: Betrayal et un poster de l'apparition des Daft Punk dans le film. Le manager de l'époque de Daft Punk, Pedro Winter, n'a pas été convié au projet et explique que le groupe ne l'a également pas été. Bien qu'il apprécie certains des remixes et des artistes présents, il regrette la façon de procéder de Disney.",
+        "imgStyleURL" : "https://66.media.tumblr.com/3b67b17c6a12cdb4002eafca603c04e6/f656541d85a5eca0-e6/s1280x1920/3e1515cb31c526f5f7481131028ac789bb5ea1d1.jpg"
       },
       {
         "name": "Alive 1997",
@@ -57,6 +69,8 @@
         "type": "Live Album",
         "duree" : "45:33",
         "genre": "French House"
+        "description" : "Alive 1997 est un album live de Daft Punk, issu d'un enregistrement le 8 novembre 1997 au Que Club à Birmingham en Angleterre, sorti en octobre 2001. Il n'y a qu'une seule piste, l'ensemble des différents morceaux étant mixés ensemble. Le disque comprend un remix de l'intro de l'album Homework ainsi que des tires tels que Da Funk, Rollin' and Scratchin' et Alive, dans des versions modifiées. L'album se classe 25e des ventes en France à sa sortie.",
+        "imgStyleURL" : "https://i.pinimg.com/originals/37/fe/00/37fe00f3d0e611155e2f8c5c4d28fe8d.png"
       },
       {
         "name": "Alive 2007",
@@ -65,6 +79,8 @@
         "type": "Live Album",
         "duree" : "83:54",
         "genre": "French House"
+        "description" : "L'enregistrement d'Alive 2007 dérive de la performance effectuée au Palais omnisports de Paris-Bercy à Paris le 14 juin 2007. Les comptes-rendus du concert notent que les Daft Punk ont largement manipulé et retravaillé leurs œuvres existantes, comme la chanson Too Long mixée avec un nouvel accompagnement. Les mixes de Television Rules the Nation avec Crescendolls, Around the World avec Harder, Better, Faster, Stronger et Superheroes avec Human After All et Rock N Roll ont été rapportés comme ayant été bien reçus par le public. Le concert en lui-même a été perçu comme une collection des enregistrements les plus populaires des Daft Punk.",
+        "imgStyleURL" : "https://66.media.tumblr.com/2aaca63ffb81234486ae1eb249864a3f/tumblr_nvo2ofhaAp1tkloieo1_1280.jpg"
       },
       {
         "name": "Daft Club",
@@ -73,6 +89,8 @@
         "type": "Album de Remixes",
         "duree" : "73:17",
         "genre": "French House"
+        "description" : "En 2001, pour la sortie de Discovery, le groupe met en place un concept intéressant, le Daft Club, en réponse à Napster (un des tous premiers réseau d'échange peer to peer). Incluse dans le boîtier de l'album, la carte de membre permet un accès internet à un player et à des morceaux inédits...",
+        "imgStyleURL" : "https://i.pinimg.com/originals/78/04/03/7804036a2e6c38eac9b4078941a6623a.jpg"
       },
       {
         "name": "Musique Vol. 1: 1993-2005",
@@ -81,6 +99,8 @@
         "type": "Compilation",
         "duree" : "75:43",
         "genre": "French House"
+        "description" : "Musique Vol. 1: 1993-2005 est une compilation du groupe Daft Punk sortie en France le 3 avril 2006. Cet album existe avec une édition spéciale contenant un DVD de 12 clips, dont deux inédits. Toujours à la pointe des nouvelles technologies, Daft Punk utilise le support DVD dès ses premiers balbutiements sur le marché pour sortir D.A.F.T : A Story About Dogs, Androïds, Firemen and Tomatoes, réunissant tous leurs clips. ",
+        "imgStyleURL" : "https://i2.wp.com/www.dom-in-nyc.com/wp-content/uploads/2016/03/Screen-Shot-2016-03-09-at-10.09.01-PM.png?fit=3268%2C2280&ssl=1"
       },
       {
         "name": "Daft Punk Greatest Hits",
@@ -89,6 +109,8 @@
         "type": "Compilation",
         "duree" : "155:28",
         "genre": "French House"
+        "description" : "Greatest Hits est une compilation non officielle sortie en 2006 des plus grands succès du groupe français de musique electro-house Daft Punk.",
+        "imgStyleURL" : "https://66.media.tumblr.com/69d421320c573dcab7a13bc7205f8293/tumblr_nn2iwblkUE1tkloieo1_1280.jpg"
       },
       {
         "name": "Around the World",
@@ -97,6 +119,8 @@
         "type": "EP",
         "duree" : "7:07",
         "genre": "French House"
+        "description" : "Apparu sur le premier album du duo, Homework, en 1997, il a fait l'objet d'un single la même année. Il a par la suite connu un grand succès en club à travers le monde, arrivant à la première place dans certains classements. Around the World est connu pour la répétition de son titre pendant le morceau, ainsi que pour son clip décalé réalisé par Michel Gondry. La phrase est prononcée 144 fois dans la version album de la chanson et 80 fois dans l'édition destinée à la radio.",
+        "imgStyleURL" : "https://statics.lesinrocks.com/content/thumbs/uploads/2014/12/width-1125-height-612/around-the-world.jpg"
       },
       {
         "name": "The New Wave",
@@ -105,6 +129,8 @@
         "type": "Single",
         "duree" : "7:00",
         "genre": "Acid House"
+        "description" : "Découragés face à l'apathie du milieu rock, ils décident un peu plus tard de se lancer à corps perdus dans le courant Techno alors en pleine explosion. Arrive alors la découverte de la House, des clubs et des raves, dont une en particulier qui déterminera leur avenir : en 1993 est organisé à EuroDisney une rave où notre duo rencontre les dirigeants du label techno écossais Soma. Signant sur ce label, le duo adopte ironiquement le nom de Daft Punk et sort en 1994 un maxi deux titres « Alive » / «The New Wave».",
+        "imgStyleURL" : "https://www.samples.fr/wp-content/uploads/2017/05/daftpunk1997.jpg"
       },
       {
         "name": "Da Funk / Rollin' & Scratchin'",
@@ -113,6 +139,8 @@
         "type": "Single",
         "duree" : "12:54",
         "genre": "French House"
+        "description" : "Da Funk est le 2e single du groupe (après The New Wave, sorti en 1994) et le premier de leur premier album Homework. Basé principalement sur un simple riff, Da Funk peut être considéré comme un classique house des années 1990. La machine s'emballe à la suite de ces deux titres et, l'occasion d'asseoir leur réputation, les Daft Punk font la première partie des Chemical Brothers. Désormais courtisés par toutes les majors, le groupe bétonne son contrat et signe finalement chez Virgin en 1996.",
+        "imgStyleURL" : "https://mixmag.fr/assets/uploads/images/_columns2/daftpunk_170105_115620_1.jpg"
       }
    ]
 }
