@@ -1,4 +1,4 @@
-package com.example.td3;
+package com.example.td3.presentation.presentation.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.td3.R;
+import com.example.td3.presentation.presentation.model.Discographie;
 import com.squareup.picasso.Picasso;
 import java.util.List;
 
@@ -49,7 +52,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         notifyItemRemoved(position);
     }
 
-    ListAdapter(List<Discographie> myDataset, Context context) {
+    public ListAdapter(List<Discographie> myDataset, Context context) {
         this.values = myDataset;
         this.context = context;
     }
@@ -86,6 +89,8 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
                     intent.putExtra("Disc_Type", currentDisc.getType());
                     intent.putExtra("Disc_Duree", currentDisc.getDuree());
                     intent.putExtra("Disc_Genre", currentDisc.getGenre());
+                    intent.putExtra("Disc_Description", currentDisc.getDescription());
+                    intent.putExtra("Disc_StyleImg", currentDisc.getImgStyleURL());
                     context.startActivity(intent);
                 }
             });

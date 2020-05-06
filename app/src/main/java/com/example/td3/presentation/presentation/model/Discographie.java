@@ -1,4 +1,4 @@
-package com.example.td3;
+package com.example.td3.presentation.presentation.model;
 
 public class Discographie {
 
@@ -8,6 +8,8 @@ public class Discographie {
     private String type;
     private String duree;
     private String genre;
+    private String description;
+    private String imgStyleURL;
 
     public String getName() {
 
@@ -30,11 +32,22 @@ public class Discographie {
     }
 
     public String getDuree() {
+
         return duree;
     }
 
     public String getGenre() {
 
         return genre;
+    }
+
+    public String getDescription() {
+
+        return description;
+    }
+
+    public String getImgStyleURL() {
+
+        return imgStyleURL;
     }
 }

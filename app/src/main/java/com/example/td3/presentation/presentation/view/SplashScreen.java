@@ -1,9 +1,11 @@
-package com.example.td3;
+package com.example.td3.presentation.presentation.view;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.td3.R;
 
 public class SplashScreen extends Activity {
 

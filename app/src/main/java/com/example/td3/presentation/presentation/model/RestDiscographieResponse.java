@@ -1,4 +1,6 @@
-package com.example.td3;
+package com.example.td3.presentation.presentation.model;
+
+import com.example.td3.presentation.presentation.model.Discographie;
 
 import java.util.List;
 

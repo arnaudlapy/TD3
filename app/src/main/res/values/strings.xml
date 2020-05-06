@@ -8,4 +8,5 @@
     <string name="project_genre">Project Genre</string>
     <string name="project_type">Project Type</string>
     <string name="project_dur_e">Project Durée</string>
+    <string name="project_description">Project Description</string>
 </resources>
