@@ -2,7 +2,6 @@ package com.example.td3;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
 import com.example.td3.data.DiscographieApi;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

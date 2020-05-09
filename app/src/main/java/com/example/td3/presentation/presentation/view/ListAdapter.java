@@ -11,7 +11,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.td3.R;
 import com.example.td3.presentation.presentation.model.Discographie;
 import com.squareup.picasso.Picasso;
@@ -28,7 +27,6 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         TextView txtFooter;
         ImageView imageView;
         RelativeLayout parentLayout;
-
         View layout;
 
         ViewHolder(View v) {
@@ -38,7 +36,6 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             txtFooter = (TextView) v.findViewById(R.id.secondLine);
             imageView = (ImageView) v.findViewById(R.id.icon);
             parentLayout = v.findViewById(R.id.parent_layout);
-
         }
     }
 
@@ -52,13 +49,12 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         notifyItemRemoved(position);
     }
 
-    public ListAdapter(List<Discographie> myDataset, Context context) {
+    ListAdapter(List<Discographie> myDataset, Context context) {
         this.values = myDataset;
         this.context = context;
     }
 
-    @NonNull
-    @Override
+    @NonNull @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
@@ -70,14 +66,11 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
 
         final Discographie currentDisc;
-
         if(position < values.size()){
 
-           currentDisc = values.get(position);
-
+            currentDisc = values.get(position);
             holder.txtHeader.setText(currentDisc.getName());
             holder.txtFooter.setText(currentDisc.getType());
-
             holder.parentLayout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -98,13 +91,12 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             Picasso.with(context)
                 .load(currentDisc.getImgURL())
                 .into(holder.imageView);
-
-
         }else Log.i("ListAdapter", "erreur size");
     }
 
     @Override
     public int getItemCount() {
+
         return values.size();
     }
 }

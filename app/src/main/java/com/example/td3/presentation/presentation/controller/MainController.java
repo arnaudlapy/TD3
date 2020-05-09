@@ -1,27 +1,18 @@
 package com.example.td3.presentation.presentation.controller;
 
-import android.content.Context;
 import android.content.SharedPreferences;
-import android.widget.Toast;
-
 import com.example.td3.Constants;
 import com.example.td3.Singletons;
-import com.example.td3.data.DiscographieApi;
 import com.example.td3.presentation.presentation.model.Discographie;
 import com.example.td3.presentation.presentation.model.RestDiscographieResponse;
 import com.example.td3.presentation.presentation.view.MainActivity;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-
 import java.lang.reflect.Type;
 import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainController {
 
@@ -93,8 +84,6 @@ public class MainController {
             return gson.fromJson(jsonDiscographie, listType);
         }
     }
-
-
 
     public void onItemClick(Discographie Disc){
 
