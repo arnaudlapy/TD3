@@ -18,6 +18,13 @@ Cette application affiche la discographie complette du groupe de French-House Da
 
 ## Fonctionnalités :
 
+### Ecran 1 : Splash Screen
+
+* Splash screen affichant le logo des Daft Punk
+
+![Splash Screen](/images/logo.png)
+Format: ![Alt Text](url)
+
 ## Dévellopé sur 
 
 * Android Studio
