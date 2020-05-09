@@ -2,9 +2,9 @@
 
 ## Description
 
-Voici mon projet de 3A de programmation mobile démontrant l'utilisation de l'appel WebService à une API rest ansi que le stockage de données en cache.
+Voici mon projet de 3A de programmation mobile démontrant l'utilisation de l'appel WebService à une API rest ainsi que le stockage de données en cache.
 
-Cette application affiche la discographie complette du groupe de French-House Daft Punk. Elle utilise une API hébergée sur GitHub contenant toutes les informations nécéssaires sur les différents projets du groupe.
+Cette application affiche la discographie complète du groupe de French-House Daft Punk. Elle utilise une API hébergée sur GitHub contenant toutes les informations nécessaires sur les différents projets du groupe.
 
 ## Consignes respectées :
 
