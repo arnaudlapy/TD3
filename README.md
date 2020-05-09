@@ -42,6 +42,10 @@ Cette application affiche la discographie complette du groupe de French-House Da
 
 ![RAM_img1](img_detail_screen_RAM_1.png) ![RAM_img2](img_detail_screen_RAM_2.png)
 
+#### Exemple 2 : Musique Vol. 1 : 1993-2005
+
+![VOL1_img1](img_detail_screen_Vol1_1.png) ![VOL1_img2](img_detail_screen_Vol1_2.png)
+
 
 ## Dévellopé sur 
 
