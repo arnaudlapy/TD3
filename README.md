@@ -22,7 +22,7 @@ Cette application affiche la discographie complette du groupe de French-House Da
 
 * Splash screen affichant le logo des Daft Punk
 
-![Splash Screen](Screenshot_20200509-162252_DaftPunkApp.jpg)
+![Splash Screen]()
 
 ## Dévellopé sur 
 
