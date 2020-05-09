@@ -11,8 +11,8 @@ Cette application affiche la discographie complette du groupe de French-House Da
 * Appel WebService à une API Rest.
 * Stockage de données en cache
 * Ecrans : 3 activitées, 3 fragments
- - *Affichage d'une liste dans une RecyclerView*
- - *Affichage du détails d'un éléments* 
+  *Affichage d'une liste dans une RecyclerView*
+  *Affichage du détails d'un éléments* 
 * Architecture : Singleton, MVC
 * Autres fonctionnalités : Splash Screen
 
