@@ -30,6 +30,19 @@ Cette application affiche la discographie complette du groupe de French-House Da
 
 ![Home_screen1](img_Home_1.png) ![Home_screen2](img_Home_2.png)
 
+### Ecran 3 : détail du Disc
+
+* Affiche les infomations sur le disc
+ * Nom, type, durée et genre
+ * Image de la pochette d'album
+ * Description et mise en contexte sur le projet
+ * Image en relation avec le projet
+
+#### Exemple 1 : Random Access Memories
+
+![RAM_img1](img_detail_screen_RAM_1.png) ![RAM_img2](img_detail_screen_RAM_2.png)
+
+
 ## Dévellopé sur 
 
 * Android Studio
