@@ -51,7 +51,7 @@ Cette application affiche la discographie complette du groupe de French-House Da
 ![img_Icone](Icone_App.png)
 
 
-## Dévellopé sur 
+## Dévellopé sous 
 
 * Android Studio
 
