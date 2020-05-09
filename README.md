@@ -46,6 +46,10 @@ Cette application affiche la discographie complette du groupe de French-House Da
 
 ![VOL1_img1](img_detail_screen_Vol1_1.png) ![VOL1_img2](img_detail_screen_Vol1_2.png)
 
+### Ajout d'une icône d'application
+
+![img_Icone](Icone_App.png)
+
 
 ## Dévellopé sur 
 
