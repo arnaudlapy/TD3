@@ -28,8 +28,7 @@ Cette application affiche la discographie complette du groupe de French-House Da
 
 * Affiche la liste des projets de Daft Punk sous forme de grille
 
-![Home_screen1] (img_Home_1.png) 
-![Home_screen2] (img_Home_2.png)
+![Home_screen1](img_Home_1.png) ![Home_screen2](img_Home_2.png)
 
 ## Dévellopé sur 
 
